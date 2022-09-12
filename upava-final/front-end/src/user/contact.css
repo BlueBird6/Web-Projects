@@ -1,0 +1,24 @@
+.contact_section {
+    background: url(../images/contact-us.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin-top: -40px;
+    height: 650px;
+}
+
+.contact_heading {
+    color: #088;
+    text-align: center;
+    padding-top: 250px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.contact_desc {
+    color: #088;
+    text-align: center;
+    margin-top: 3%;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 20px;
+}

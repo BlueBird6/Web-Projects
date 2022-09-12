@@ -1,0 +1,128 @@
+.sign-In {
+    margin-top: 16px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgba(255, 255, 255, 0.918);
+    color: rgb(0 0 0 / 55%);
+
+    padding: 3%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+
+.sign-In h2 {
+    margin-bottom: 10px;
+}
+
+.sign-In label {
+    text-align: left;
+}
+
+.sign-In input,
+select {
+    width: 80%;
+    border-radius: 10px;
+    color: #000000;
+    padding: 2px;
+    padding-left: 13px;
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    background: #0606061f;
+}
+
+.sign-In button {
+    width: 35%;
+    margin: 10% 0% 5% 0%;
+}
+
+.f {
+    margin-left: 2%;
+    color: grey;
+}
+
+.p {
+    margin-top: 2%;
+}
+
+
+.select1 {
+    width: 53%;
+    border-radius: 10px;
+    color: #000000;
+    padding: 2px;
+    padding-left: 13px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    background: #0606061f;
+}
+
+#leble {
+    margin-right: 25px;
+}
+
+@media screen and (max-width: 886px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+
+    .sign-In {
+        margin-top: 16px;
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+.AlreadyHaveAccount {
+    margin: 2% 0% 10% 12%;
+}
+
+@media screen and (max-width: 508px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+
+    .sign-In {
+        margin-top: 16px;
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width:382px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+
+    .sign-In label {
+        width: 40%;
+    }
+
+    .sign-In {
+        margin-top: 4px;
+    }
+}
+
+body {
+    overflow: visible;
+}

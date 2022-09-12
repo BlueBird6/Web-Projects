@@ -1,0 +1,47 @@
+.header {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    background-color: rgba(0, 0, 0, 0.048);
+}
+
+.heading {
+    margin-top: 5rem;
+    color: #088;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.about {
+    width: 100%;
+    border-radius: 40%;
+}
+
+.about_imgs {
+    width: 100%;
+    height: 220px;
+}
+
+.about_text {
+    text-align: justify;
+    margin-top: 2rem;
+    line-height: 1.7;
+}
+
+.about_heading {
+    color: #088;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.about_desc {
+    text-align: justify;
+    line-height: 1.7;
+    padding: 0 4%;
+}
+
+.section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}

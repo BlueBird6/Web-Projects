@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+.custom-navbar2 {
+    height: 100px;
+    background-color: #088;
+    line-height: 45px;
+}
+
+.custom-list2 {
+    margin-right: 10%;
+}
+
+.list-item2 {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.list-item2:hover {
+    background-color: rgb(0, 100, 100);
+}
+
+.list-item2 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+    margin: 0 10px;
+
+}
+
+.custom-brand2 {
+    margin-left: 10%;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.custom-brand2:hover {
+    color: rgb(181, 209, 209);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 255, 255);
+}
+
+
+@media only screen and (max-width: 991px) {
+    .list-item2 {
+        background-color: #088;
+        border-radius: 0;
+        text-align: center;
+    }
+
+    .list-item2:hover {
+        background-color: rgb(0, 70, 70);
+    }
+
+    .custom-brand2 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 1156px) {
+    .custom-list2 {
+        margin-right: 2%;
+    }
+
+    .list-item2 a {
+        margin: 0;
+    }
+}

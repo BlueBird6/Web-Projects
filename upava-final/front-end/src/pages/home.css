@@ -1,0 +1,208 @@
+* {
+    font-family: verdana;
+}
+
+.home_section {
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+    margin-top: -132px;
+    height: 750px;
+}
+
+.welcome_mssg {
+    margin-top: 200px;
+    color: #088;
+    text-align: center;
+    background-color: #ffff;
+    padding: 2.5rem 2rem 4rem 2rem;
+    width: 100%;
+    border-radius: 10px;
+    z-index: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.name {
+    font-weight: bold;
+    font-size: 28px;
+    font-family: verdana;
+    margin-bottom: 40px;
+}
+
+.join {
+    font-size: 18px;
+    font-family: verdana;
+    margin-bottom: 50px;
+}
+
+.member {
+    text-decoration: none;
+    background-color: #088;
+    color: #fff;
+    font-size: 23px;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 35px;
+    border: 1px solid #088;
+    transition: 0.5s all;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.member:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #088;
+}
+
+.welcome h1 {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    background-clip: initial;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 20%, rgba(0, 136, 136, 1) 48%, rgba(0, 212, 255, 1) 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.welcome h1 span {
+    margin-top: 5px;
+    font-size: 15px;
+    word-spacing: 1px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+    margin: 0 20% 0 20%;
+}
+
+.welcome h1 span:after,
+.welcome h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #088;
+    border-top: 1px solid #088;
+    height: 5px;
+    background-color: #f8f8f8;
+
+}
+
+.desc {
+    margin-top: 3rem;
+    text-align: justify;
+}
+
+#line-break {
+    white-space: pre-wrap;
+}
+
+.mission {
+    margin-top: 4rem;
+    width: 100%;
+    height: 500px;
+}
+
+
+.heading h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 35px 0;
+    grid-gap: 20px;
+    align-items: center;
+    margin: 2% 20% 2% 20%;
+    background-clip: initial;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 20%, rgba(0, 136, 136, 1) 48%, rgba(0, 212, 255, 1) 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading h1:after,
+.heading h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #088;
+    border-top: 1px solid #088;
+    height: 5px;
+    background-color: #f8f8f8;
+}
+
+.gallery_img {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-top: 2%;
+    transition: 0.2s all;
+}
+
+.view_all {
+    text-align: right;
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.view_btn {
+    padding: 2% 2.25%;
+    border-radius: 35px;
+    color: #fff;
+    background-color: #088;
+    transition: 0.7s all;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.view_btn:hover {
+    text-decoration: none;
+    color: #088;
+    background-color: #fff;
+}
+
+.arrow {
+    margin-left: 1%;
+}
+
+.card {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+}
+
+.btn-primary {
+    background-color: #088;
+}
+
+.btn-primary:hover {
+    background-color: rgb(0, 83, 83);
+}
+
+@media only screen and (max-width: 397px) {
+    .name {
+        font-size: 20px;
+    }
+
+    .member {
+        font-size: 16px;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .heading h1 {
+        font-size: 19px;
+    }
+}
